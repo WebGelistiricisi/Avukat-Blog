@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f0f8ff;
+}
+
+h1, h2 {
+  color: #0d47a1;
+}
+
+input, textarea {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 300px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #0d47a1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.blog {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  background: #fff;
+}

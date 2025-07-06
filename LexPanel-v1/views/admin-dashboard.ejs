@@ -1,0 +1,12 @@
+<% include layout %>
+
+<h2>Admin Paneli</h2>
+<a href="/admin/add-blog">Yeni Blog Ekle</a>
+<h3>Bloglar:</h3>
+<% blogs.forEach(blog => { %>
+  <div>
+    <h4><%= blog.title %></h4>
+    <p><%= blog.content %></p>
+    <small>Dava Türü: <%= blog.caseType %></small>
+  </div>
+<% }) %>
